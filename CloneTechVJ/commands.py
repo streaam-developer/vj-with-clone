@@ -154,7 +154,8 @@ async def start(client, message):
         try:
             k = await temp.BOT.send_cached_media(chat_id=PUBLIC_FILE_CHANNEL, file_id=file_id)
             vj = await client.get_messages(PUBLIC_FILE_CHANNEL, k.id)
-            await k.delete(10)
+            await asyncio.sleep(10)
+            await k.delete()
             mg = getattr(vj, vj.media.value)
             file_id = mg.file_id
             if cd["update_channel_link"] != None:
