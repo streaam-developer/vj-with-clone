@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @presood
+# Subscribe YouTube Channel For Amazing Bot @presood
+# Ask Doubt on telegram @presood
 
 import re
 from pymongo.errors import DuplicateKeyError
@@ -60,7 +60,7 @@ class Database:
         'is_tutorial': IS_TUTORIAL,
         'vj': None,
         'techvj': None,
-        'tech_vj': None,
+        'presood': None,
         'vjtech': None,
         'vj_tech': None
     }
